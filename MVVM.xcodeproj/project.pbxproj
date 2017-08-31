@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5847066E1F579B8800D482A8 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5847066D1F579B8800D482A8 /* MovieModel.m */; };
 		58A803651F567131008DAB34 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A803641F567131008DAB34 /* MainViewController.m */; };
 		58A803681F567140008DAB34 /* DetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A803671F567140008DAB34 /* DetialViewController.m */; };
 		58A8036B1F56727C008DAB34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A8036A1F56727C008DAB34 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5847066C1F579B8800D482A8 /* MovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
+		5847066D1F579B8800D482A8 /* MovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
 		58A803631F567131008DAB34 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		58A803641F567131008DAB34 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		58A803661F567140008DAB34 /* DetialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetialViewController.h; sourceTree = "<group>"; };
@@ -84,6 +87,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		584706691F57964F00D482A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58A803631F567131008DAB34 /* MainViewController.h */,
+				58A803641F567131008DAB34 /* MainViewController.m */,
+				58A803661F567140008DAB34 /* DetialViewController.h */,
+				58A803671F567140008DAB34 /* DetialViewController.m */,
+				58A803691F56727C008DAB34 /* ViewController.h */,
+				58A8036A1F56727C008DAB34 /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5847066A1F57984B00D482A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5847066C1F579B8800D482A8 /* MovieModel.h */,
+				5847066D1F579B8800D482A8 /* MovieModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5847066B1F57986B00D482A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		58FC7E101F55613300D2A794 = {
 			isa = PBXGroup;
 			children = (
@@ -107,14 +139,11 @@
 		58FC7E1B1F55613300D2A794 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				58A803691F56727C008DAB34 /* ViewController.h */,
-				58A8036A1F56727C008DAB34 /* ViewController.m */,
+				5847066B1F57986B00D482A8 /* ViewModel */,
+				5847066A1F57984B00D482A8 /* Model */,
+				584706691F57964F00D482A8 /* ViewController */,
 				58FC7E1F1F55613300D2A794 /* AppDelegate.h */,
 				58FC7E201F55613300D2A794 /* AppDelegate.m */,
-				58A803631F567131008DAB34 /* MainViewController.h */,
-				58A803641F567131008DAB34 /* MainViewController.m */,
-				58A803661F567140008DAB34 /* DetialViewController.h */,
-				58A803671F567140008DAB34 /* DetialViewController.m */,
 				58FC7E251F55613300D2A794 /* Main.storyboard */,
 				58FC7E281F55613300D2A794 /* Assets.xcassets */,
 				58FC7E2A1F55613300D2A794 /* LaunchScreen.storyboard */,
@@ -290,6 +319,7 @@
 				58A803651F567131008DAB34 /* MainViewController.m in Sources */,
 				58FC7E1E1F55613300D2A794 /* main.m in Sources */,
 				58A803681F567140008DAB34 /* DetialViewController.m in Sources */,
+				5847066E1F579B8800D482A8 /* MovieModel.m in Sources */,
 				58A8036B1F56727C008DAB34 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,8 +8,8 @@
 
 #import "MainViewController.h"
 
-@interface MainViewController ()
-
+@interface MainViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic,strong) NSArray *modelArray;
 @end
 
 @implementation MainViewController
